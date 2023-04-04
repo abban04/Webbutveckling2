@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li class="nav-item" id="firstNav">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#">AboutUs</a>
+            </li>
+        </ul>
+            <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="nav flex-column">
+            <li class="nav-item" id="secondNav">
+                <a href="#firstNav"><img src="panda.jpg"></a>
+            </li>
+
+            <li>
+                <input type="search">
+            </li>
+            
+            <li>
+                <a class="nav-link" href="#">AboutUs</a>
+            </li>
+        </ul>
+        <hr>
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item" id="thirdNav">
+                <a class="nav-link active" href="home.html">Home</a>
+            </li>
+
+            <li>
+                <a class="nav-link disabled" href="contact.html">Contact</a>
+            </li>
+            
+            <li>
+                <a class="nav-link" href="about.html">AboutUs</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="some.html">Something</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            
+            <li>
+                <a class="nav-link" href="#">AboutUs</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Gallery</a>
+                <ul class="dropdown-menu">
+                    <a href="#firstNav"><li class="dropdown-item">firstNav</li></a>
+                    <a href="#secondNav"><li class="dropdown-item">secondNav</li></a>
+                    <a href="#thirdNav"><li class="dropdown-item">thirdNav</li></a>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
